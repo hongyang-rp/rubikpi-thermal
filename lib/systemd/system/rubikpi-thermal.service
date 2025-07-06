@@ -1,0 +1,10 @@
+[Unit]
+SourcePath=/etc/rubikpi/rubikpi_thermal.sh
+Description=Rubik Pi thermal service
+
+[Service]
+ExecStart=/etc/rubikpi/rubikpi_thermal.sh start
+ExecStop=/etc/rubikpi/rubikpi_thermal.sh stop
+
+[Install]
+WantedBy=multi-user.target

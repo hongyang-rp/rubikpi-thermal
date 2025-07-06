@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ ! -d /etc/rubikpi ]; then
+	mkdir /etc/rubikpi
+fi
+
+exit 0

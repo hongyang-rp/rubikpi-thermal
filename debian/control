@@ -1,0 +1,11 @@
+Source: rubikpi3-thermal
+Section: utils
+Priority: extra
+Maintainer: Hongyang Zhao <hongyang.zhao@thundersoft.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: rubikpi3-thermal
+Architecture: arm64
+Description: Fan Management for RUBIK Pi 3
+ Run the script to periodically obtain the temperature and control the fan speed.
